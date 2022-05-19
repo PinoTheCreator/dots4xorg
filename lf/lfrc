@@ -1,0 +1,17 @@
+set drawbox
+set info size
+set icons
+set dircounts
+set autoquit on
+
+# commands
+
+cmd trash %trash-put $fx
+
+cmd mkdir %mkdir "$@"
+
+# keybinds
+
+map MD push :mkdir<space>
+
+map DD :trash
